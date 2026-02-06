@@ -1,5 +1,16 @@
 <div href="https://github.com/QiuChenly/InjectLib" align="center">
-<img src="./style.svg" width="600" height="500">
+<img src="./style.svg" width="600" height="350">
+
+<p align="center" style="font-size:0.8em;color: white;">🔞全球各❤️地❤️服❤️务🔞<br/>
+                🔞①线至①⑧线城市齐全🔞<br/>
+                🔞与汇❤️编 🚗和🤤ASM代码约❤️会🔞<br/>
+                🔞 一❤️个❤️人独🔞自🔞在🔞家❤️火❤️热❤️难❤️耐 玩🔞逆🔞向 🔞<br/>
+                🔞性感C++❤️火热CLion x 高冷VSCode的❤️禁❤️忌❤️之❤️恋🔞<br/>
+                
+<div align=center >
+    <span>#宝宝辅食</span> <span>#盒战争</span> <span>#迷你世界</span> <span>#游戏王？连原神都不敢说自己是游戏王！</span> <span>#梗小鬼</span> <span>#V圈军机处</span> <span>#冬雪莲x塔菲x你龙哥的大棍</span>
+</div>
+</p>
 
 # CONTRIBUTE
 
