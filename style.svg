@@ -1,156 +1,119 @@
 <svg
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-  <style>
-    html {
-      background-color: #000;
-    }
-
-    @keyframes rotate {
-      0% {
-        transform: rotate(1deg);
-      }
-      100% {
-        transform: rotate(-1deg);
-      }
-    }
-
-    @keyframes gradientBackground {
-      0% {
-        background-position: 0% 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;
-      }
-    }
-
-    @keyframes fadeIn {
-      0% {
-        opacity: 0;
-      }
-      66% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-
-    @keyframes logo-fade {
-      0% {
-        opacity: 1;
-      }
-      50% {
-        opacity: 0.35;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-
-    .container-bg {
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica,
-        Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin: 0;
-      width: 100%;
-      background: linear-gradient(-45deg, #fc5c7d, #6a82fb, #05dfd7);
-      background-size: 600% 400%;
-      animation: gradientBackground 10s ease infinite;
-      border-radius: 10px;
-      color: white;
-      text-align: center;
-      padding-bottom:40px;
-    }
-
-    .move {
-      font-size: 50px;
-      line-height: 1.3;
-      letter-spacing: 5px;
-      animation: rotate ease-in-out 1s infinite alternate;
-    }
-
-    .user {
-      font-size: 20px;
-      text-shadow: 0 1px 0 #efefef;
-      animation: 6s ease 2s normal forwards infinite logo-fade;
-    }
-
-    .logo {
-      animation: 6s ease-in-out 2s normal forwards infinite logo-fade;
-    }
-    .logo-s {
-      margin-bottom: 40px;
-      margin-left: 50%;
-      transform: translateX(-50%);
-      display: flex;
-      width: 100%;
-      height: 200px;
-      justify-content: center;
-      align-items: center;
-      padding: 20px 0 ;
-      
-
-      background-color: #000;
-      border-radius: 10px;
-    }
-
-    .logo-s #apple {
-      animation: 6s ease 2s normal forwards infinite logo-fade;
-    }
-  </style>
-  <div class="container">
-    <div class="logo-s">
-      <svg id="apple" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-        <g>
-          <title>Layer 1</title>
-          <path
-            stroke="null"
-            id="svg_1"
-            d="m175.81503,67.97709a45.16806,45.16806 0 0 0 -21.58787,37.99465a43.96085,43.96085 0 0 0 26.75178,40.32099a105.01694,105.01694 0 0 1 -13.69917,28.30159c-8.52882,12.27716 -17.44644,24.55432 -31.01565,24.55432s-17.05871,-7.88333 -32.6965,-7.88333c-15.25113,0 -20.6771,8.14217 -33.07992,8.14217s-21.06267,-11.37283 -31.0135,-25.32977a122.42471,122.42471 0 0 1 -20.80706,-66.03848c0,-38.77225 25.20089,-59.31831 50.01298,-59.31831c13.18256,0 24.16553,8.65878 32.43551,8.65878c7.88333,0 20.16049,-9.17538 35.15171,-9.17538a47.0186,47.0186 0 0 1 39.54769,19.77277zm-73.66297,-21.97022a14.89134,14.89134 0 0 1 -2.71406,-0.25777a17.78261,17.78261 0 0 1 -0.38772,-3.61946a43.32718,43.32718 0 0 1 10.98511,-27.00954a44.64823,44.64823 0 0 1 29.33588,-15.1201a19.13373,19.13373 0 0 1 0.38772,4.00611a44.55801,44.55801 0 0 1 -10.59739,27.78499a38.70673,38.70673 0 0 1 -27.00954,14.21577z"
-            fill="#fff"
-          />
-        </g>
-      </svg>
-
-      <svg
-        id="Outlines"
+        fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        width="400"
-        height="200"
-        viewBox="0 0 85 54"
-      >
-        <rect width="200" height="120" fill="none" />
-        <path
-          d="M47.6007,17.5l-15.8225,0v.0148a.9966.9966,0,0,1-.9967.9966h-3.563a.9966.9966,0,0,1-.9967-.9966V17.5l-15.8225,0-1.3253.0012c-.5021.0009-.8263.0021-1.0713.0043-.2291.0021-.3856.0049-.5117.0089a4.1339,4.1339,0,0,0-.4391.0319.7944.7944,0,0,0-.2431.0635.4178.4178,0,0,0-.1159.0816.4279.4279,0,0,0-.0847.12.7891.7891,0,0,0-.0624.24,4.1463,4.1463,0,0,0-.0316.4382c-.0038.1232-.0066.28-.0086.5095-.0019.2434-.0032.525-.0041,1.0284-.001.7351-.0015,27.47-.0015,27.47H32v.982a2.4943,2.4943,0,0,0,.5223,1.518H7.2891L7.0376,50.5H4.0029l-.2514-.5028H1.5179A1.5181,1.5181,0,0,1,0,48.4792v-.982H5s0-26.7366.0015-27.4728c.0009-.5075.0022-.7917.0041-1.0389.0022-.2439.0053-.4109.0094-.5453a5.5844,5.5844,0,0,1,.0455-.5987,2.27,2.27,0,0,1,.1963-.6816,1.9238,1.9238,0,0,1,.9041-.9029,2.27,2.27,0,0,1,.6815-.196,5.5426,5.5426,0,0,1,.6-.0458c.1349-.0044.3021-.0075.5465-.01.2476-.0023.5751-.0035,1.0825-.0044.3427-.0005.7506-.001,1.3272-.0012H47.6013c.5766,0,.9845.0007,1.3272.0012.5074.0009.8349.0021,1.0825.0044.2444.0021.4116.0052.5465.01a5.5426,5.5426,0,0,1,.6.0458,2.27,2.27,0,0,1,.6815.196,1.9238,1.9238,0,0,1,.9041.9029,2.27,2.27,0,0,1,.1963.6816,5.5844,5.5844,0,0,1,.0455.5987c.0041.1344.0072.3014.0094.5453l0,.0144h-1.5v-.0026c-.002-.2275-.0048-.3846-.0087-.5109a4.1105,4.1105,0,0,0-.0317-.4363.7884.7884,0,0,0-.0631-.2412.4235.4235,0,0,0-.2-.1991.7964.7964,0,0,0-.2433-.0635,4.13,4.13,0,0,0-.4393-.0319c-.1258-.004-.2823-.0068-.5109-.0089-.2455-.0022-.57-.0034-1.0719-.0043ZM85,47.4971v.982a1.5181,1.5181,0,0,1-1.5181,1.518H81.2485l-.2514.5029H77.9624l-.2515-.5029H40.2891l-.2515.5029H37.0029l-.2514-.5029H34.5179A1.5181,1.5181,0,0,1,33,48.4791v-.982h5s.0005-22.6936.0015-23.43c.0009-.5075.0022-.8348.0041-1.0819.0022-.2439.0053-.411.0094-.5454a5.58,5.58,0,0,1,.0455-.5986,2.27,2.27,0,0,1,.1963-.6817,1.9242,1.9242,0,0,1,.9041-.9028,2.27,2.27,0,0,1,.6815-.196,5.5387,5.5387,0,0,1,.6-.0459c.1349-.0043.3021-.0074.5465-.0095.2476-.0023.5751-.0036,1.0825-.0044C42.4142,20.0006,43.3987,20,43.3987,20H74.6013c.5767,0,.9844.0006,1.3272.0012.5073.0008.8349.0021,1.0825.0044.2444.0021.4116.0052.5464.0095a5.5323,5.5323,0,0,1,.6.0459,2.268,2.268,0,0,1,.6816.196,1.9219,1.9219,0,0,1,.9041.9028,2.2784,2.2784,0,0,1,.1963.6817,5.5841,5.5841,0,0,1,.0454.5986c.0044.1344.0073.3015.01.5454.0019.2471.0032.5744.0041,1.0819.001.7361.0015,23.43.0015,23.43Zm-6.5,0S78.5,24.8055,78.4985,24.0694c-.0009-.5024-.0022-.827-.0041-1.072-.002-.2264-.0047-.3826-.0088-.5081a4.1746,4.1746,0,0,0-.0317-.44.7867.7867,0,0,0-.0633-.2408.43.43,0,0,0-.0825-.1161.4241.4241,0,0,0-.1164-.0821.798.798,0,0,0-.2437-.0637,4.1323,4.1323,0,0,0-.4395-.032c-.1257-.004-.2822-.0068-.5107-.0088-.2456-.0023-.57-.0035-1.072-.0043L74.6006,21.5l-12.8224,0v.0147a.9967.9967,0,0,1-.9967.9967h-3.563a.9967.9967,0,0,1-.9967-.9967V21.5H52.4989l-9.1,0-1.3253.0012c-.5021.0008-.8263.002-1.0713.0043-.2291.002-.3856.0048-.5119.0088a4.1232,4.1232,0,0,0-.4388.032.7914.7914,0,0,0-.2432.0635.42.42,0,0,0-.1159.0815.4315.4315,0,0,0-.0847.12.79.79,0,0,0-.0624.24,4.1506,4.1506,0,0,0-.0316.4382c-.0038.1233-.0066.28-.0086.5095-.0019.2435-.0032.5681-.0041,1.0714-.001.7352-.0015,23.4268-.0015,23.4268Z"
-          fill="#fff"
-        />
-      </svg>
-    </div>
+>
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                html {
+                }
 
-    <div class="container-bg">
-      <div class="title">
-        <h1 class="move">InjectLib</h1>
-        <h2>macOS集成注入框架</h2>
-        <h3 class="user">Creative By QiuChenly</h3>
-        <span>
-        For <strong>My MacBook Pro 16</strong>  
-        </span>
-      <div>i9-9980HK Max 5.0Ghz</div>
-      </div>
-    </div>
-  </div>
+                @keyframes rotate {
+                0% {
+                transform: rotate(1deg);
+                }
+                100% {
+                transform: rotate(-1deg);
+                }
+                }
+
+                @keyframes gradientBackground {
+                0% {
+                background-position: 0% 50%;
+                }
+                50% {
+                background-position: 100% 50%;
+                }
+                100% {
+                background-position: 0% 50%;
+                }
+                }
+
+                @keyframes fadeIn {
+                0% {
+                opacity: 0;
+                }
+                66% {
+                opacity: 0;
+                }
+                100% {
+                opacity: 1;
+                }
+                }
+
+                @keyframes logo-fade {
+                0% {
+                opacity: 1;
+                }
+                50% {
+                opacity: 0.35;
+                }
+                100% {
+                opacity: 1;
+                }
+                }
+
+                .container-bg {
+                font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica,
+                Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 0;
+                width: 100%;
+                background: linear-gradient(-45deg, #fc5c7d, #6a82fb, #05dfd7);
+                background-size: 600% 400%;
+                animation: gradientBackground 10s ease infinite;
+                border-radius: 10px;
+                color: white;
+                text-align: center;
+                padding-bottom:40px;
+                }
+
+                .move {
+                font-size: 50px;
+                line-height: 1.3;
+                letter-spacing: 5px;
+                animation: rotate ease-in-out 1s infinite alternate;
+                }
+
+                .user {
+                font-size: 20px;
+                text-shadow: 0 1px 0 #efefef;
+                animation: 6s ease 2s normal forwards infinite logo-fade;
+                }
+
+                border-radius: 10px;
+                }
+            </style>
+            <div class="container">
+                <div class="container-bg">
+                    <div class="title">
+                        <h1 class="move">QiuChen App Store</h1>
+                        <h2>向你展示QiuChenly的实力。</h2>
+                        <h3 class="user">QiuChenly Design</h3>
+                        <span>
+                            For
+                            <strong>MacBook Pro</strong>
+                        </span>
+                    </div>
+                </div>
+
+                <br />
+<p align="center" style="font-size:0.8em">🔞全球各❤️地❤️服❤️务🔞<br/>
+🔞①线至①⑧线城市齐全🔞<br/>
+🔞与汇❤️编 🚗和🤤ASM代码约❤️会🔞<br/>
+🔞 一❤️个❤️人独🔞自🔞在🔞家❤️火❤️热❤️难❤️耐 玩🔞逆🔞向 🔞<br/>
+🔞性感C++❤️火热CLion x 高冷VSCode的❤️禁❤️忌❤️之❤️恋🔞<br/>
+
+<div style="margin-top:16px;display:flex; flex-wrap:wrap;  font-size:0.8em; text-align:center; justify-content:center; gap:0.4em">
+<span>#宝宝辅食</span><span>#盒战争</span><span>#迷你世界</span><span>#游戏王？连原神都不敢说自己是游戏王！</span><span>#梗小鬼</span><span>#V圈军机处</span><span>#冬雪莲x塔菲x你龙哥的大棍</span>
 </div>
+</p>
 
 
-  </foreignObject>
+            </div>
+        </div>
+    </foreignObject>
 </svg>
